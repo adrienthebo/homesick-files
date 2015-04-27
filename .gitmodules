@@ -1,0 +1,21 @@
+[submodule "home/.vim/bundle/ack.vim"]
+	path = home/.vim/bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim
+[submodule "home/.vim/bundle/ctrlp.vim"]
+	path = home/.vim/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim
+[submodule "home/.vim/bundle/vim-endwise"]
+	path = home/.vim/bundle/vim-endwise
+	url = https://github.com/tpope/vim-endwise
+[submodule "home/.vim/bundle/vim-gnupg"]
+	path = home/.vim/bundle/vim-gnupg
+	url = https://github.com/jamessan/vim-gnupg
+[submodule "home/.vim/bundle/syntastic"]
+	path = home/.vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic
+[submodule "home/.vim/bundle/puppet-syntax-vim"]
+	path = home/.vim/bundle/puppet-syntax-vim
+	url = https://github.com/puppetlabs/puppet-syntax-vim
+[submodule "home/.vim/bundle/nerdtree"]
+	path = home/.vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree
