@@ -165,10 +165,6 @@ if executable('ag')
   let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 endif
 
-" syntastic - cpp
-
-let g:syntastic_cpp_compiler = 'clang++'
-
 " NO REALLY TURN OFF ERROR BELL
 set noerrorbells
 set novisualbell
