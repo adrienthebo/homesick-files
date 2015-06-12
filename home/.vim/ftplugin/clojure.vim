@@ -1,7 +1,7 @@
 " Clojure specific settings
 
 RainbowParenthesesActivate
-RainbowParenthesesToggle
-RainbowParenthesesLoadRound
-RainbowParenthesesLoadSquare
-RainbowParenthesesLoadBraces
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
