@@ -4,12 +4,10 @@ scriptencoding utf-8
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Basic behavior configuration
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set nocompatible
 set history=500
 set nobackup
 set ruler
 set nowrap
-set bs=indent,eol,start
 
 " Better scrolling navigation
 set scrolloff=2
@@ -45,11 +43,6 @@ else
   colorscheme elflord
 endif
 
-" Turn off system bell
-set noerrorbells
-set visualbell
-set t_vb=
-
 " Configure prompt.
 set laststatus=2
 set statusline=
@@ -62,22 +55,6 @@ set statusline+=%{&fileformat}]              " file format
 set statusline+=%=                           " right align
 set statusline+=%2*0x%-8B\                   " current char
 set statusline+=%-14.(%l,%c%V%)\ %<%P        " offset
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Braindamage fixes
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" Clear F1 help bind
-nnoremap <F1> :echo<CR>
-inoremap <F1> <C-o>:echo<CR>
-
-" Fix backspacing
-inoremap  
-cnoremap  
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Shortcuts
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Binds F3 to clear the search
 nnoremap <silent> <Leader>c :let @/=""<CR>
@@ -139,8 +116,3 @@ if executable('ag')
   " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
   let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 endif
-
-" NO REALLY TURN OFF ERROR BELL
-set noerrorbells
-set novisualbell
-set t_vb=
