@@ -37,3 +37,6 @@
 [submodule "home/.vim/bundle/gnupg"]
 	path = home/.vim/bundle/gnupg
 	url = https://github.com/jamessan/vim-gnupg
+[submodule "home/.vim/bundle/fireplace"]
+	path = home/.vim/bundle/fireplace
+	url = https://github.com/tpope/vim-fireplace
