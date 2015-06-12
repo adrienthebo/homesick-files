@@ -43,3 +43,6 @@
 [submodule "home/.vim/bundle/rainbow_parentheses"]
 	path = home/.vim/bundle/rainbow_parentheses
 	url = https://github.com/kien/rainbow_parentheses.vim
+[submodule "home/.vim/bundle/eunuch"]
+	path = home/.vim/bundle/eunuch
+	url = https://github.com/tpope/vim-eunuch
