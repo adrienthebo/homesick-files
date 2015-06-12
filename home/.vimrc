@@ -169,8 +169,6 @@ endif
 
 let g:syntastic_cpp_compiler = 'clang++'
 
-abbrev pryme require 'pry'; binding.pry
-
 " NO REALLY TURN OFF ERROR BELL
 set noerrorbells
 set novisualbell
