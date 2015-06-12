@@ -92,8 +92,6 @@ au BufRead,BufNewFile *.cc          set sts=4 sw=4 et nolist
 au BufRead,BufNewFile *.hpp         set sts=4 sw=4 et nolist
 au BufRead,BufNewFile *.go          set sts=8 sw=8 noet nolist
 
-au BufRead,BufNewFile *.jmd    set wrap linebreak spell nolist textwidth=0
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Shortcuts
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
