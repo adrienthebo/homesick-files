@@ -94,9 +94,6 @@ au BufRead,BufNewFile *.go          set sts=8 sw=8 noet nolist
 
 au BufRead,BufNewFile *.jmd    set wrap linebreak spell nolist textwidth=0
 
-" Move cursor to the top of the file.
-au FileType gitcommit call setpos('.', [0, 1, 1, 0])
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Shortcuts
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
