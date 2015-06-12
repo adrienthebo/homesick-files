@@ -56,18 +56,6 @@ set statusline+=%=                           " right align
 set statusline+=%2*0x%-8B\                   " current char
 set statusline+=%-14.(%l,%c%V%)\ %<%P        " offset
 
-" Binds F3 to clear the search
-nnoremap <silent> <Leader>c :let @/=""<CR>
-
-" Clear trailing whitespace
-nnoremap <silent> <Leader>s :%s/\s\+$//<CR>
-
-" toggle list
-nnoremap <silent> <Leader>l :set list!<CR>
-
-" toggle list
-nnoremap <silent> <Leader>h :set hlsearch!<CR>
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Enable plugins
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -101,10 +89,6 @@ endif
 
 " vim-gnupg
 let g:GPGPreferArmor = 1
-
-nnoremap <silent> <Leader>n :NERDTreeToggle<CR>
-nnoremap <silent> <Leader>f :CtrlP<CR>
-nnoremap <silent> <Leader>a :CtrlPClearAllCaches<CR>
 
 " Use The Silver Searcher https://github.com/ggreer/the_silver_searcher
 if executable('ag')
