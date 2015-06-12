@@ -83,9 +83,6 @@ au BufRead,BufNewFile *.md          set wrap linebreak spell filetype=ghmarkdown
 au BufRead,BufNewFile *.mkd         set wrap linebreak spell filetype=ghmarkdown textwidth=80
 au BufRead,BufNewFile *.markdown    set wrap linebreak spell filetype=ghmarkdown textwidth=80
 
-au BufRead,BufNewFile Vagrantfile.* set filetype=ruby
-au BufRead,BufNewFile Vagrantfile   set filetype=ruby
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Shortcuts
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
