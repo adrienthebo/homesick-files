@@ -90,7 +90,6 @@ au BufRead,BufNewFile *.h           set sts=4 sw=4 et nolist
 au BufRead,BufNewFile *.c           set sts=4 sw=4 et nolist
 au BufRead,BufNewFile *.cc          set sts=4 sw=4 et nolist
 au BufRead,BufNewFile *.hpp         set sts=4 sw=4 et nolist
-au BufRead,BufNewFile *.go          set sts=8 sw=8 noet nolist
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Shortcuts
