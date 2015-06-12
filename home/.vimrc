@@ -79,8 +79,6 @@ cnoremap  
 " Hacked in file configuration
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-au BufRead,BufNewFile *.pp          set filetype=puppet
-
 au BufRead,BufNewFile *.txt         set wrap
 au BufRead,BufNewFile *.md          set wrap linebreak spell filetype=ghmarkdown textwidth=80
 au BufRead,BufNewFile *.mkd         set wrap linebreak spell filetype=ghmarkdown textwidth=80
