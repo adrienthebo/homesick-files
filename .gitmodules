@@ -52,3 +52,9 @@
 [submodule "home/.vim/bundle/vim-sexp-mappings-for-regular-people"]
 	path = home/.vim/bundle/vim-sexp-mappings-for-regular-people
 	url = https://github.com/tpope/vim-sexp-mappings-for-regular-people
+[submodule "home/.vim/bundle/vim-dispatch"]
+	path = home/.vim/bundle/vim-dispatch
+	url = git://github.com/tpope/vim-dispatch
+[submodule "home/.vim/bundle/vim-salve"]
+	path = home/.vim/bundle/vim-salve
+	url = git://github.com/tpope/vim-salve
