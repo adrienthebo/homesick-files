@@ -22,9 +22,6 @@
 [submodule "home/.vim/bundle/vim-flavored-markdown"]
 	path = home/.vim/bundle/vim-flavored-markdown
 	url = git://github.com/jtratner/vim-flavored-markdown.git
-[submodule "home/.vim/bundle/vim-clojure-static"]
-	path = home/.vim/bundle/vim-clojure-static
-	url = https://github.com/guns/vim-clojure-static
 [submodule "home/.vim/bundle/vim-puppet"]
 	path = home/.vim/bundle/vim-puppet
 	url = https://github.com/rodjek/vim-puppet
@@ -37,27 +34,9 @@
 [submodule "home/.vim/bundle/gnupg"]
 	path = home/.vim/bundle/gnupg
 	url = https://github.com/jamessan/vim-gnupg
-[submodule "home/.vim/bundle/fireplace"]
-	path = home/.vim/bundle/fireplace
-	url = https://github.com/tpope/vim-fireplace
-[submodule "home/.vim/bundle/rainbow_parentheses"]
-	path = home/.vim/bundle/rainbow_parentheses
-	url = https://github.com/kien/rainbow_parentheses.vim
 [submodule "home/.vim/bundle/eunuch"]
 	path = home/.vim/bundle/eunuch
 	url = https://github.com/tpope/vim-eunuch
-[submodule "home/.vim/bundle/vim-sexp"]
-	path = home/.vim/bundle/vim-sexp
-	url = https://github.com/guns/vim-sexp
-[submodule "home/.vim/bundle/vim-sexp-mappings-for-regular-people"]
-	path = home/.vim/bundle/vim-sexp-mappings-for-regular-people
-	url = https://github.com/tpope/vim-sexp-mappings-for-regular-people
 [submodule "home/.vim/bundle/vim-dispatch"]
 	path = home/.vim/bundle/vim-dispatch
 	url = git://github.com/tpope/vim-dispatch
-[submodule "home/.vim/bundle/vim-salve"]
-	path = home/.vim/bundle/vim-salve
-	url = git://github.com/tpope/vim-salve
-[submodule "home/.vim/bundle/vim-eastwood"]
-	path = home/.vim/bundle/vim-eastwood
-	url = https://github.com/venantius/vim-eastwood
