@@ -1,3 +1,2 @@
-.config/Terminal
-.config
-.config/awesome
+.vim
+.vim/bundle
