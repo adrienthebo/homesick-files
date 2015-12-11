@@ -8,6 +8,8 @@ else
 end
 set list
 
+set nowrap
+
 " Configure gui options
 set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar

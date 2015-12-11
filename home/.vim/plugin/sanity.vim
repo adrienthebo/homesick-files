@@ -16,3 +16,6 @@ set noerrorbells
 set visualbell
 set t_vb=
 
+set nobackup
+
+set history=500
