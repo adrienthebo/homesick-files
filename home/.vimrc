@@ -9,12 +9,6 @@ set nobackup
 set ruler
 set nowrap
 
-" Configure tabbing
-set sts=2
-set shiftwidth=2
-set smartindent
-set expandtab
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Enable plugins
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
