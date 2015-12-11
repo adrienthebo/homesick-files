@@ -35,10 +35,3 @@ if has("eval")
   filetype plugin on
   filetype indent on
 endif
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Plugin configuration. Relevant only if the plugins are installed.
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-" vim-gnupg
-let g:GPGPreferArmor = 1
