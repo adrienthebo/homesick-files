@@ -8,12 +8,11 @@ if filereadable(expand("~/.vim/autoload/pathogen.vim"))
   call pathogen#infect()
 end
 
-if has("syntax")
-    syntax enable
-endif
+" Syntax is available on all versions of Vim in 2016. Always enable it.
+syntax enable
 
-if has("eval")
-  filetype on
-  filetype plugin on
-  filetype indent on
-endif
+" The 'eval' feature is built into Vim; always use it. God help you if you're
+" actually using Vi.
+filetype on
+filetype plugin on
+filetype indent on
