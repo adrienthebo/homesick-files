@@ -8,12 +8,6 @@ if filereadable(expand("~/.vim/autoload/pathogen.vim"))
   call pathogen#infect()
 end
 
-if has("folding")
-  set foldenable
-  set foldmethod=indent
-  set foldlevelstart=99
-endif
-
 if has("syntax")
     syntax enable
 endif

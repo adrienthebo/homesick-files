@@ -38,3 +38,8 @@ set statusline+=%-14.(%l,%c%V%)\ %<%P        " offset
 set scrolloff=2
 set sidescroll=8
 set sidescrolloff=4
+
+" Configure folding
+set foldenable
+set foldmethod=indent
+set foldlevelstart=99
