@@ -46,3 +46,6 @@
 [submodule "home/.vim/bundle/vim-easytags"]
 	path = home/.vim/bundle/vim-easytags
 	url = https://github.com/xolox/vim-easytags
+[submodule "home/.vim/bundle/vim-misc"]
+	path = home/.vim/bundle/vim-misc
+	url = https://github.com/xolox/vim-misc
