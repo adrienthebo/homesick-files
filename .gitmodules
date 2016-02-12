@@ -43,3 +43,6 @@
 [submodule "home/.vim/bundle/tagbar"]
 	path = home/.vim/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar
+[submodule "home/.vim/bundle/vim-easytags"]
+	path = home/.vim/bundle/vim-easytags
+	url = https://github.com/xolox/vim-easytags
