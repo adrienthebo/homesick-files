@@ -14,3 +14,4 @@ nnoremap <silent> <Leader>h :set hlsearch!<CR>
 
 nnoremap <silent> <Leader>n :NERDTreeToggle<CR>
 nnoremap <silent> <Leader>f :CtrlP<CR>
+nnoremap <silent> <Leader>t :TagbarToggle<CR>
