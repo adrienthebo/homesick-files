@@ -18,7 +18,7 @@ set guioptions-=r  "remove right-hand scroll bar
 if has("gui")
   colorscheme desert
 else
-  colorscheme elflord
+  colorscheme industry
 endif
 
 " Configure prompt.
