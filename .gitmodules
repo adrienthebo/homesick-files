@@ -31,9 +31,6 @@
 [submodule "home/.vim/bundle/vim-dispatch"]
 	path = home/.vim/bundle/vim-dispatch
 	url = git://github.com/tpope/vim-dispatch
-[submodule "home/.vim/bundle/tagbar"]
-	path = home/.vim/bundle/tagbar
-	url = https://github.com/majutsushi/tagbar
 [submodule "home/.vim/bundle/vim-misc"]
 	path = home/.vim/bundle/vim-misc
 	url = https://github.com/xolox/vim-misc
