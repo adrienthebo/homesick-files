@@ -31,9 +31,6 @@
 [submodule "home/.vim/bundle/ack"]
 	path = home/.vim/bundle/ack
 	url = https://github.com/mileszs/ack.vim
-[submodule "home/.vim/bundle/nerdtree-tabs"]
-	path = home/.vim/bundle/nerdtree-tabs
-	url = https://github.com/jistr/vim-nerdtree-tabs
 [submodule "home/.vim/bundle/tagbar"]
 	path = home/.vim/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar
