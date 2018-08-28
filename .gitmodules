@@ -13,9 +13,6 @@
 [submodule "home/.vim/bundle/vim-puppet"]
 	path = home/.vim/bundle/vim-puppet
 	url = https://github.com/rodjek/vim-puppet
-[submodule "home/.vim/bundle/fugitive"]
-	path = home/.vim/bundle/fugitive
-	url = https://github.com/tpope/vim-fugitive
 [submodule "home/.vim/bundle/endwise"]
 	path = home/.vim/bundle/endwise
 	url = https://github.com/tpope/vim-endwise
