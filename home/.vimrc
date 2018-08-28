@@ -17,3 +17,9 @@ syntax enable
 filetype on
 filetype plugin on
 filetype indent on
+
+if filereadable(expand("~/.vim/autoload/plug.vim"))
+  source $HOME/.vim/autoload/plug.vim
+  call plug#begin('~/.vim/plugged')
+  call plug#end()
+end
