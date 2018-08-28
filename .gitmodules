@@ -16,9 +16,6 @@
 [submodule "home/.vim/bundle/vim-dispatch"]
 	path = home/.vim/bundle/vim-dispatch
 	url = git://github.com/tpope/vim-dispatch
-[submodule "home/.vim/bundle/vim-misc"]
-	path = home/.vim/bundle/vim-misc
-	url = https://github.com/xolox/vim-misc
 [submodule "home/.vim/bundle/rust"]
 	path = home/.vim/bundle/rust
 	url = https://github.com/rust-lang/rust.vim
