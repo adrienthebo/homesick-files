@@ -10,6 +10,3 @@
 [submodule "home/.vim/bundle/ack"]
 	path = home/.vim/bundle/ack
 	url = https://github.com/mileszs/ack.vim
-[submodule "home/.vim/bundle/tagbar"]
-	path = home/.vim/bundle/tagbar
-	url = https://github.com/majutsushi/tagbar
