@@ -4,9 +4,6 @@
 [submodule "home/.vim/bundle/vim-puppet"]
 	path = home/.vim/bundle/vim-puppet
 	url = https://github.com/rodjek/vim-puppet
-[submodule "home/.vim/bundle/gnupg"]
-	path = home/.vim/bundle/gnupg
-	url = https://github.com/jamessan/vim-gnupg
 [submodule "home/.vim/bundle/eunuch"]
 	path = home/.vim/bundle/eunuch
 	url = https://github.com/tpope/vim-eunuch
