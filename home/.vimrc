@@ -21,5 +21,11 @@ filetype indent on
 if filereadable(expand("~/.vim/autoload/plug.vim"))
   source $HOME/.vim/autoload/plug.vim
   call plug#begin('~/.vim/plugged')
+
+  if filereadable(expand("~/.vim/plugged.vim"))
+    source $HOME/.vim/plugged.vim
+  end
+
+
   call plug#end()
 end
