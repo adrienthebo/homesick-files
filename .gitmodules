@@ -28,6 +28,3 @@
 [submodule "home/.vim/bundle/tagbar"]
 	path = home/.vim/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar
-[submodule "home/.vim/bundle/vim-terraform"]
-	path = home/.vim/bundle/vim-terraform
-	url = https://github.com/hashivim/vim-terraform
