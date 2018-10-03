@@ -1,18 +1,28 @@
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py --system-libclang --all' }
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'hashivim/vim-terraform'
-"Plug 'majutsushi/tagbar'
-Plug 'rust-lang/rust.vim'
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'scrooloose/syntastic'
+" Graphical
 Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-surround'
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
+
+" Navigation
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'majutsushi/tagbar'
 Plug 'jremmen/vim-ripgrep'
+
+" Language support
+Plug 'elzr/vim-json'
+Plug 'rust-lang/rust.vim'
+Plug 'hashivim/vim-terraform'
 Plug 'plasticboy/vim-markdown'
-Plug 'tpope/vim-eunuch'
+Plug 'scrooloose/syntastic'
+
+" Code completion
+Plug 'tpope/vim-surround'
 Plug 'tpope/vim-endwise'
-if has('nvim')
-  Plug 'floobits/floobits-neovim', { 'do': ':UpdateRemotePlugins' }
-endif
+Plug 'tpope/vim-repeat'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --system-libclang --all' }
+Plug 'godlygeek/tabular'
+
+" Utility modules
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'tpope/vim-eunuch'
