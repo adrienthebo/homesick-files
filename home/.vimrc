@@ -26,6 +26,5 @@ if filereadable(expand("~/.vim/autoload/plug.vim"))
     source $HOME/.vim/plugged.vim
   end
 
-
   call plug#end()
 end
