@@ -14,7 +14,8 @@ Plug 'elzr/vim-json'
 Plug 'rust-lang/rust.vim'
 Plug 'hashivim/vim-terraform'
 Plug 'plasticboy/vim-markdown'
-Plug 'scrooloose/syntastic'
+Plug 'w0rp/ale'
+"Plug 'scrooloose/syntastic' " Deprecated in favor of ale
 
 " Code completion
 Plug 'tpope/vim-surround'
