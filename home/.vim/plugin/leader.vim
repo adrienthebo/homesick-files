@@ -9,9 +9,6 @@ nnoremap <silent> <Leader>s :%s/\s\+$//<CR>
 " toggle list
 nnoremap <silent> <Leader>l :set list!<CR>
 
-" toggle hightlight search
-nnoremap <silent> <Leader>h :set hlsearch!<CR>
-
 nnoremap <silent> <Leader>n :NERDTreeToggle<CR>
 nnoremap <silent> <Leader>f :CtrlP<CR>
 nnoremap <silent> <Leader>b :CtrlPBuffer<CR>
