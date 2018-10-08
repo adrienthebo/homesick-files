@@ -29,3 +29,4 @@ Plug 'terryma/vim-multiple-cursors'
 " Utility modules
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'tpope/vim-eunuch'
+Plug 'tpope/vim-sensible'
