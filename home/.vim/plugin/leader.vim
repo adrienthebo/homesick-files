@@ -13,3 +13,7 @@ nnoremap <silent> <Leader>n :NERDTreeToggle<CR>
 nnoremap <silent> <Leader>f :CtrlP<CR>
 nnoremap <silent> <Leader>b :CtrlPBuffer<CR>
 nnoremap <silent> <Leader>t :TagbarToggle<CR>
+
+nnoremap <silent> <Leader>g :ALEGoToDefinition<CR>
+nnoremap <silent> <Leader>h :ALEHover<CR>
+nnoremap <silent> <Leader>d :ALEDetail<CR>
