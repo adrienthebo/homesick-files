@@ -24,6 +24,7 @@ Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-repeat'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --system-libclang --all' }
 Plug 'godlygeek/tabular'
+Plug 'terryma/vim-multiple-cursors'
 
 " Utility modules
 Plug 'ludovicchabant/vim-gutentags'
