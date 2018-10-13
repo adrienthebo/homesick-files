@@ -1,6 +1,4 @@
 " .vimrc
-scriptencoding utf-8
-set encoding=UTF-8
 
 " Load pathogenized plugins if pathogen is present
 " This must be done prior to filetype plugin indent on
