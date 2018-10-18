@@ -16,6 +16,7 @@ Plug 'hashivim/vim-terraform'
 Plug 'plasticboy/vim-markdown'
 Plug 'cespare/vim-toml'
 Plug 'w0rp/ale'
+Plug 'python-mode/python-mode', { 'branch': 'develop' }
 "Plug 'scrooloose/syntastic' " Deprecated in favor of ale
 
 " Code completion
