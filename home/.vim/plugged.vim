@@ -2,6 +2,7 @@
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
+Plug 'luochen1990/rainbow'
 
 " Navigation
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
