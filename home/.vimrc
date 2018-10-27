@@ -20,8 +20,8 @@ if filereadable(expand("~/.vim/autoload/plug.vim"))
   source $HOME/.vim/autoload/plug.vim
   call plug#begin('~/.vim/plugged')
 
-  if filereadable(expand("~/.vim/plugged.vim"))
-    source $HOME/.vim/plugged.vim
+  if filereadable(expand("~/.vim/modules.vim"))
+    source $HOME/.vim/modules.vim
   end
 
   call plug#end()
