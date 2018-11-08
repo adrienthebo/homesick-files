@@ -9,6 +9,7 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'majutsushi/tagbar'
 Plug 'jremmen/vim-ripgrep'
+Plug 'easymotion/vim-easymotion'
 
 " Language support
 Plug 'elzr/vim-json'
