@@ -1,3 +1,3 @@
 " Text file configuration
 
-set wrap
+set wrap linebreak
