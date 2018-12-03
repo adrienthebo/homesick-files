@@ -14,7 +14,6 @@ Plug 'easymotion/vim-easymotion'
 " Language support
 Plug 'elzr/vim-json'
 Plug 'rust-lang/rust.vim'
-Plug 'hashivim/vim-terraform'
 Plug 'plasticboy/vim-markdown'
 Plug 'cespare/vim-toml'
 Plug 'w0rp/ale'
@@ -35,3 +34,5 @@ Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-sensible'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'kshenoy/vim-signature'
+
+Plug 'hashivim/vim-terraform'
