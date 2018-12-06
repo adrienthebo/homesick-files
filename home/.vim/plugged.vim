@@ -24,7 +24,7 @@ Plug 'python-mode/python-mode', { 'branch': 'develop' }
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-repeat'
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py --system-libclang --rust-completer --go-completer' }
+"Plug 'Valloric/YouCompleteMe', { 'do': './install.py --system-libclang --rust-completer --go-completer' }
 Plug 'godlygeek/tabular'
 Plug 'terryma/vim-multiple-cursors'
 

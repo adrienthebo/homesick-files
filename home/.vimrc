@@ -18,10 +18,10 @@ filetype indent on
 
 if filereadable(expand("~/.vim/autoload/plug.vim"))
   source $HOME/.vim/autoload/plug.vim
-  call plug#begin('~/.vim/plugged')
+  call plug#begin('~/.vim/bundle')
 
-  if filereadable(expand("~/.vim/modules.vim"))
-    source $HOME/.vim/modules.vim
+  if filereadable(expand("~/.vim/plugged.vim"))
+    source $HOME/.vim/plugged.vim
   end
 
   call plug#end()
