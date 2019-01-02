@@ -10,6 +10,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'majutsushi/tagbar'
 Plug 'jremmen/vim-ripgrep'
 Plug 'easymotion/vim-easymotion'
+Plug 'haya14busa/incsearch.vim'
 
 " Language support
 Plug 'elzr/vim-json'
