@@ -15,7 +15,9 @@ Plug 'haya14busa/incsearch.vim'
 " Language support
 Plug 'elzr/vim-json'
 Plug 'rust-lang/rust.vim'
-Plug 'plasticboy/vim-markdown'
+" Deprecated in favor of vim-gfm-syntax
+"Plug 'plasticboy/vim-markdown'
+Plug 'rhysd/vim-gfm-syntax'
 Plug 'cespare/vim-toml'
 Plug 'w0rp/ale'
 Plug 'python-mode/python-mode', { 'branch': 'develop' }
