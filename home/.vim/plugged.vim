@@ -38,5 +38,6 @@ Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-sensible'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'kshenoy/vim-signature'
+Plug 'mtth/scratch.vim'
 
 Plug 'hashivim/vim-terraform'
