@@ -13,6 +13,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'haya14busa/incsearch.vim'
 
 " Language support
+Plug 'rodjek/vim-puppet'
 Plug 'elzr/vim-json'
 Plug 'rust-lang/rust.vim'
 " Deprecated in favor of vim-gfm-syntax
