@@ -7,14 +7,14 @@ if filereadable(expand("~/.vim/autoload/pathogen.vim"))
   call pathogen#infect()
 end
 
-" Syntax is available on all versions of Vim in 2016. Always enable it.
-syntax enable
-
 " The 'eval' feature is built into Vim; always use it. God help you if you're
 " actually using Vi.
 filetype on
 filetype plugin on
 filetype indent on
+
+" Syntax is available on all versions of Vim in 2016. Always enable it.
+syntax enable
 
 if filereadable(expand("~/.vim/autoload/plug.vim"))
   source $HOME/.vim/autoload/plug.vim
