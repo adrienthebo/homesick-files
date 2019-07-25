@@ -24,6 +24,7 @@ Plug 'w0rp/ale'
 Plug 'python-mode/python-mode', { 'branch': 'develop' }
 "Plug 'scrooloose/syntastic' " Deprecated in favor of ale
 Plug 'jiangmiao/auto-pairs'
+Plug 'chrisbra/csv.vim'
 
 " Code completion
 Plug 'tpope/vim-surround'
