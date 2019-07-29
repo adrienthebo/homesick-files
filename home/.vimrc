@@ -1,5 +1,8 @@
 " .vimrc
 
+" Prevent code execution with malicious modelines
+set nomodeline
+
 " Load pathogenized plugins if pathogen is present
 " This must be done prior to filetype plugin indent on
 if filereadable(expand("~/.vim/autoload/pathogen.vim"))
