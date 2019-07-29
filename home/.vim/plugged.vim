@@ -25,6 +25,7 @@ Plug 'python-mode/python-mode', { 'branch': 'develop' }
 "Plug 'scrooloose/syntastic' " Deprecated in favor of ale
 Plug 'jiangmiao/auto-pairs'
 Plug 'chrisbra/csv.vim'
+Plug 'artur-shaik/vim-javacomplete2'
 
 " Code completion
 Plug 'tpope/vim-surround'

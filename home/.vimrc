@@ -26,3 +26,8 @@ if filereadable(expand("~/.vim/autoload/plug.vim"))
 
   call plug#end()
 end
+
+" XXX This was temporarily added to support Java, and might need to happen at
+" a specific time in the vim loading sequence. It will live as a comment until
+" something better can be worked out.
+"autocmd FileType java setlocal omnifunc=javacomplete#Complete
