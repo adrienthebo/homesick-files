@@ -7,6 +7,8 @@ GCR
 GPL
 Golang
 HPA
+HPAs
+HTTPS
 ILB
 Istio
 JVM
@@ -21,6 +23,7 @@ Terraform
 Thebo
 URLs
 Walkthroughs
+admin
 autoscale
 autoscaling
 config
@@ -32,11 +35,11 @@ github
 gke
 gsuite
 hostname
+hpa
 https
 metadata
 namespace
 org
-poc
 poc
 provisioners
 standup
