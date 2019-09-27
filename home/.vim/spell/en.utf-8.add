@@ -47,3 +47,4 @@ stdin
 stdout
 webserver
 www
+kustomize
