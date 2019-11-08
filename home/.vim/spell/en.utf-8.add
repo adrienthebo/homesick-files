@@ -68,3 +68,6 @@ toolchain
 webserver
 wget
 www
+Configs
+PEAP
+MSCHAPv2
