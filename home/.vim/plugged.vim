@@ -18,13 +18,14 @@ Plug 'rust-lang/rust.vim'
 Plug 'rhysd/vim-gfm-syntax'
 Plug 'cespare/vim-toml'
 Plug 'python-mode/python-mode', { 'branch': 'develop' }
-Plug 'hashivim/vim-terraform'
 Plug 'chrisbra/csv.vim'
-Plug 'artur-shaik/vim-javacomplete2'
+Plug 'nathanielc/vim-tickscript'
 
-" Deprecated in favor of vim-gfm-syntax
-"Plug 'plasticboy/vim-markdown'
-"Plug 'scrooloose/syntastic' " Deprecated in favor of ale
+""" Currently unused
+" Plug 'artur-shaik/vim-javacomplete2'
+" Plug 'ianks/vim-tsx'
+" Plug 'leafgarland/typescript-vim'
+" Plug 'hashivim/vim-terraform'
 
 " Code completion
 Plug 'jiangmiao/auto-pairs'
@@ -34,8 +35,8 @@ Plug 'tpope/vim-repeat'
 Plug 'godlygeek/tabular'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'w0rp/ale'
-"Deprecated in favor of ALE
-"Plug 'Valloric/YouCompleteMe', { 'do': './install.py --system-libclang --rust-completer --go-completer' }
+"Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+"Plug 'sebastianmarkow/deoplete-rust'
 
 " Utility modules
 
