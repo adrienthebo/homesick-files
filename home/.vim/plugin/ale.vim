@@ -8,12 +8,14 @@ let g:ale_rust_rls_executable = expand("~/.rustup/toolchains/stable-x86_64-unkno
 
 let g:ale_linters = {
       \ 'go': ['gobuild', 'gofmt', 'golint', 'golangserver'],
-      \ 'rust': ['rls']
+      \ 'rust': ['rls'],
+      \ 'python': ['flake8', 'mypy', 'pylint', 'pyls'],
       \}
 
 let g:ale_fixers = {
   \ 'ruby': ['rubocop'],
-  \ 'puppet': ['puppetlint']
+  \ 'puppet': ['puppetlint'],
+  \ 'python': ['reorder-python-imports', 'yapf', 'trim_whitespace', 'isort']
   \}
 
 nmap <silent> <C-k> <Plug>(ale_previous_wrap)
