@@ -26,13 +26,15 @@ Plug 'python-mode/python-mode', { 'branch': 'develop' }
 
 " Performance issues with large files
 "Plug 'chrisbra/csv.vim'
-Plug 'nathanielc/vim-tickscript'
+" Lol tickscript
+"Plug 'nathanielc/vim-tickscript'
+Plug 'chrisbra/csv.vim'
+Plug 'hashivim/vim-terraform'
 
 """ Currently unused
 " Plug 'artur-shaik/vim-javacomplete2'
 " Plug 'ianks/vim-tsx'
 " Plug 'leafgarland/typescript-vim'
-Plug 'hashivim/vim-terraform'
 
 " Code completion
 Plug 'jiangmiao/auto-pairs'
