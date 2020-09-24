@@ -22,13 +22,12 @@ Plug 'elzr/vim-json'
 Plug 'rust-lang/rust.vim'
 Plug 'rhysd/vim-gfm-syntax'
 Plug 'cespare/vim-toml'
-Plug 'python-mode/python-mode', { 'branch': 'develop' }
 
 " Performance issues with large files
 "Plug 'chrisbra/csv.vim'
 " Lol tickscript
 "Plug 'nathanielc/vim-tickscript'
-Plug 'chrisbra/csv.vim'
+"Plug 'python-mode/python-mode', { 'branch': 'develop' }
 Plug 'hashivim/vim-terraform'
 
 """ Currently unused
