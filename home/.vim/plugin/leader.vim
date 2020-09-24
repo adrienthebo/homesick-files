@@ -10,8 +10,7 @@ nnoremap <silent> <Leader>s :%s/\s\+$//<CR>
 nnoremap <silent> <Leader>l :set list!<CR>
 
 nnoremap <silent> <Leader>n :NERDTreeToggle<CR>
-nnoremap <silent> <Leader>f :CtrlP<CR>
-nnoremap <silent> <Leader>b :CtrlPBuffer<CR>
+nnoremap <silent> <Leader>f :Files<CR>
 nnoremap <silent> <Leader>t :TagbarToggle<CR>
 
 nnoremap <silent> <Leader>g :ALEGoToDefinition<CR>

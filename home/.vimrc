@@ -18,6 +18,7 @@ filetype indent on
 
 " Syntax is available on all versions of Vim in 2016. Always enable it.
 syntax enable
+set background=dark
 
 if filereadable(expand("~/.vim/autoload/plug.vim"))
   source $HOME/.vim/autoload/plug.vim
