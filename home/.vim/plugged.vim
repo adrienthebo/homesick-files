@@ -4,31 +4,25 @@ Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
 Plug 'luochen1990/rainbow'
 Plug 'yggdroot/indentline'
-"Plug 'nathanaelkane/vim-indent-guides'
+Plug 'nathanaelkane/vim-indent-guides'
 
 " Navigation
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-"Plug 'ctrlpvim/ctrlp.vim'
 Plug 'jremmen/vim-ripgrep'
 Plug 'easymotion/vim-easymotion'
 Plug 'haya14busa/incsearch.vim'
-"Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 
 " Language support
-Plug 'rodjek/vim-puppet'
-Plug 'elzr/vim-json'
-Plug 'rust-lang/rust.vim'
-Plug 'rhysd/vim-gfm-syntax'
 Plug 'cespare/vim-toml'
-
-" Performance issues with large files
-"Plug 'chrisbra/csv.vim'
-" Lol tickscript
-"Plug 'nathanielc/vim-tickscript'
-"Plug 'python-mode/python-mode', { 'branch': 'develop' }
+Plug 'elzr/vim-json'
 Plug 'hashivim/vim-terraform'
+Plug 'rhysd/vim-gfm-syntax'
+Plug 'rodjek/vim-puppet'
+Plug 'rust-lang/rust.vim'
+
+"Plug 'python-mode/python-mode', { 'branch': 'develop' }
 
 """ Currently unused
 " Plug 'artur-shaik/vim-javacomplete2'
