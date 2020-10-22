@@ -10,12 +10,14 @@ let g:ale_linters = {
       \ 'go': ['gobuild', 'gofmt', 'golint', 'golangserver'],
       \ 'rust': ['rls'],
       \ 'python': ['pylint', 'mypy', 'pyls'],
+      \ 'sh': ['shellcheck'],
       \}
 
 let g:ale_fixers = {
   \ 'ruby': ['rubocop'],
   \ 'puppet': ['puppetlint'],
-  \ 'python': ['reorder-python-imports', 'trim_whitespace', 'isort', 'black']
+  \ 'python': ['reorder-python-imports', 'trim_whitespace', 'isort', 'black'],
+  \ 'go': ['goimports']
   \}
 
 nmap <silent> <C-k> <Plug>(ale_previous_wrap)
