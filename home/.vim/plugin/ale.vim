@@ -9,9 +9,10 @@ let g:ale_rust_rls_executable = expand("~/.rustup/toolchains/stable-x86_64-unkno
 let g:ale_linters = {
       \ 'go': ['gobuild', 'gofmt', 'golint', 'golangserver'],
       \ 'rust': ['rls'],
-      \ 'python': ['pylint', 'mypy', 'pyls'],
+      \ 'python': ['mypy', 'pyls'],
       \ 'sh': ['shellcheck'],
       \ 'html': ['prettier'],
+      \ 'ruby': ['solargraph', 'rubocop'],
       \}
 
 let g:ale_fixers = {
