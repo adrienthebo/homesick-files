@@ -12,7 +12,7 @@ let g:ale_linters = {
       \ 'python': ['mypy', 'pyls'],
       \ 'sh': ['shellcheck'],
       \ 'html': ['prettier'],
-      \ 'ruby': ['solargraph', 'rubocop'],
+      \ 'ruby': ['solargraph', 'rubocop', 'ruby'],
       \}
 
 let g:ale_fixers = {
