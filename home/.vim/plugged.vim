@@ -21,6 +21,7 @@ Plug 'hashivim/vim-terraform'
 Plug 'rhysd/vim-gfm-syntax'
 Plug 'rodjek/vim-puppet'
 Plug 'rust-lang/rust.vim'
+Plug 'masukomi/vim-markdown-folding'
 
 "Plug 'python-mode/python-mode', { 'branch': 'develop' }
 
@@ -35,7 +36,6 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-repeat'
 Plug 'godlygeek/tabular'
-Plug 'terryma/vim-multiple-cursors'
 Plug 'w0rp/ale'
 Plug 'tpope/vim-abolish'
 "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
