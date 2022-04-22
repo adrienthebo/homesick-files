@@ -17,7 +17,9 @@ Chronograf
 Configs
 Cron
 DBSRE
+DMR
 DevOps
+E911
 Elasticsearch
 GCE
 GCP
@@ -31,10 +33,12 @@ HPA
 HPAs
 HTTPS
 IAM
+IFSTA
 ILB
 Icinga
 InfluxDB
 Influxdb
+IoT
 Istio
 JIRA
 JVM
@@ -62,6 +66,7 @@ Puppetized
 Quickstart
 RBAC
 RPMs
+Runbooks
 SELinux
 SQRE
 SRE
@@ -72,6 +77,7 @@ TBD
 TODO
 Terraform
 Thebo
+Traefik
 Trello
 URLs
 VMs
@@ -93,7 +99,6 @@ codebase
 codebases
 codepaths
 config
-config
 copyleft
 deduplicated
 devops
@@ -104,6 +109,7 @@ etc
 filesystem
 filesystems
 fixups
+freetakserver
 frontend
 gRPC
 gcloud
@@ -112,6 +118,8 @@ github
 gke
 grafana
 gsuite
+hblink
+hbmonitor
 hiera
 hoc
 holomorphic
@@ -124,10 +132,13 @@ iam
 iptables
 k3s
 k8s
+kube
 kubectl
+kubernetes
 kustomize
 libvirt
 lsst
+mDNS
 mandelbrot
 metadata
 minikube
@@ -140,6 +151,7 @@ nginx
 onboarding
 operatingsystem
 org
+pinout
 poc
 prem
 provisioners
@@ -163,6 +175,7 @@ subinterfaces
 sudo
 timestamp
 toolchain
+traefik
 tunables
 typechecking
 unconfigured
@@ -175,3 +188,5 @@ wget
 whitelist
 whitelists
 www
+zerotier
+zezere

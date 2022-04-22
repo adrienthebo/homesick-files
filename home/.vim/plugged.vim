@@ -1,54 +1,57 @@
-" Graphical
-Plug 'tpope/vim-fugitive'
-Plug 'airblade/vim-gitgutter'
-Plug 'vim-airline/vim-airline'
-Plug 'luochen1990/rainbow'
-Plug 'yggdroot/indentline'
-"Plug 'nathanaelkane/vim-indent-guides'
+if !exists('g:vscode')
 
-" Navigation
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'jremmen/vim-ripgrep'
-Plug 'easymotion/vim-easymotion'
-Plug 'haya14busa/incsearch.vim'
-Plug 'junegunn/fzf'
-Plug 'junegunn/fzf.vim'
+  "Graphical
+  Plug 'tpope/vim-fugitive'
+  Plug 'airblade/vim-gitgutter'
+  Plug 'vim-airline/vim-airline'
+  Plug 'luochen1990/rainbow'
+  Plug 'yggdroot/indentline'
+  "Plug 'nathanaelkane/vim-indent-guides'
 
-" Language support
-Plug 'cespare/vim-toml'
-Plug 'elzr/vim-json'
-Plug 'hashivim/vim-terraform'
-Plug 'rhysd/vim-gfm-syntax'
-Plug 'rodjek/vim-puppet'
-Plug 'rust-lang/rust.vim'
-Plug 'masukomi/vim-markdown-folding'
+  " Navigation
+  Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+  Plug 'jremmen/vim-ripgrep'
+  Plug 'easymotion/vim-easymotion'
+  Plug 'haya14busa/incsearch.vim'
+  Plug 'junegunn/fzf'
+  Plug 'junegunn/fzf.vim'
 
-"Plug 'python-mode/python-mode', { 'branch': 'develop' }
+  " Language support
+  Plug 'cespare/vim-toml'
+  Plug 'elzr/vim-json'
+  Plug 'hashivim/vim-terraform'
+  Plug 'rhysd/vim-gfm-syntax'
+  Plug 'rodjek/vim-puppet'
+  Plug 'rust-lang/rust.vim'
 
-""" Currently unused
-" Plug 'artur-shaik/vim-javacomplete2'
-" Plug 'ianks/vim-tsx'
-" Plug 'leafgarland/typescript-vim'
+  "Plug 'python-mode/python-mode', { 'branch': 'develop' }
 
-" Code completion
-Plug 'jiangmiao/auto-pairs'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-endwise'
-Plug 'tpope/vim-repeat'
-Plug 'godlygeek/tabular'
-Plug 'w0rp/ale'
-Plug 'tpope/vim-abolish'
-"Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-"Plug 'sebastianmarkow/deoplete-rust'
+  """ Currently unused
+  " Plug 'artur-shaik/vim-javacomplete2'
+  " Plug 'ianks/vim-tsx'
+  " Plug 'leafgarland/typescript-vim'
 
-" Utility modules
+  " Code completion
+  Plug 'jiangmiao/auto-pairs'
+  Plug 'tpope/vim-surround'
+  Plug 'tpope/vim-endwise'
+  Plug 'tpope/vim-repeat'
+  Plug 'godlygeek/tabular'
+  Plug 'terryma/vim-multiple-cursors'
+  Plug 'w0rp/ale'
+  Plug 'tpope/vim-abolish'
+  "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+  "Plug 'sebastianmarkow/deoplete-rust'
 
-" Temporarily disabled - ctags is not available on faraday
-"Plug 'majutsushi/tagbar'
-"Plug 'ludovicchabant/vim-gutentags'
+  " Utility modules
 
-Plug 'tpope/vim-eunuch'
-Plug 'tpope/vim-sensible'
-Plug 'editorconfig/editorconfig-vim'
-Plug 'kshenoy/vim-signature'
-Plug 'mtth/scratch.vim'
+  " Temporarily disabled - ctags is not available on faraday
+  "Plug 'majutsushi/tagbar'
+  "Plug 'ludovicchabant/vim-gutentags'
+
+  Plug 'tpope/vim-eunuch'
+  Plug 'tpope/vim-sensible'
+  Plug 'editorconfig/editorconfig-vim'
+  Plug 'kshenoy/vim-signature'
+  Plug 'mtth/scratch.vim'
+endif

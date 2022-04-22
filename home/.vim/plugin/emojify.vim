@@ -18,5 +18,5 @@ function! s:emojify(fmt) abort
   return l:output
 endfunction
 
-command! -nargs=1 -complete=command Emoji echom trim(s:emojify(<q-args>))
-command! -nargs=0 -complete=command EmojiThis call s:insertEmojify()
+command! -nargs=1 -nargs=1 Emoji echom trim(s:emojify(<q-args>))
+command! -nargs=0 EmojiThis call s:insertEmojify()
