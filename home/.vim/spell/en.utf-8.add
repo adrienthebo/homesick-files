@@ -21,6 +21,7 @@ Cron
 DBSRE
 DMR
 DevOps
+Dockerfile
 E911
 EC2
 ECUs
@@ -130,7 +131,9 @@ desc
 devops
 dhcp
 dns
+dockerfile
 dotfiles
+entrypoint
 etc
 filesystem
 filesystems
@@ -182,6 +185,7 @@ operatingsystem
 org
 pinout
 poc
+podman
 prem
 printk
 provisioners
@@ -204,7 +208,9 @@ stdin
 stdout
 subinterfaces
 sudo
+sysctl
 syslog
+systemctl
 systemd
 timestamp
 toolchain
@@ -224,4 +230,3 @@ whitelists
 www
 zerotier
 zezere
-sysctl
