@@ -19,3 +19,5 @@ set t_vb=
 set nobackup
 
 set history=500
+
+set nofixendofline
