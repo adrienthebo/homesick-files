@@ -1,7 +1,7 @@
 " Sane defaults for an insane world.
 
 set nocompatible
-set bs=indent,eol,start
+set backspace=indent,eol,start
 
 " Clear F1 help bind
 nnoremap <F1> :echo<CR>
